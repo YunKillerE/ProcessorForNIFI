@@ -2,7 +2,6 @@
 
 NIFI工具中的processor定制开发，以及简单的使用，包括从RDBMS中抽取数据到hdfs/kafka等，以及从hdfs导出数据到RDBMS/kafka等
 
-
 # 1. NIFI 基本介绍
 
     NiFi是什么
@@ -22,6 +21,14 @@ NIFI工具中的processor定制开发，以及简单的使用，包括从RDBMS�
     案例2：重写ConvertAvroToJSON，实现数据按行并指定分隔符存储到HDFS，理论上比上面的要高效
     案例3：新增Porcessor，实现将AVRO数据转换成按行存储，理论上比上面两个重写的processor效率都要高
 
-  
+***nifi template example***
 
+https://github.com/hortonworks-gallery/nifi-templates
+
+***环境***
+
+idea
+nifi 1.2.0
+java 1.8
+cdh 5.8.4
 
